@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Find a Tutor - TutorLink</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>TutorLink</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="find-a-tutor.html" class="active">Find a Tutor</a></li>
+        <li><a href="#">Subjects</a></li>
+        <li><a href="#">Become a Tutor</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Find a Tutor</h2>
+    <p>Use the form below to search for a tutor by subject, grade level, or availability.</p>
+
+    <form class="search-form">
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" placeholder="e.g. Math, History" />
+
+      <label for="grade">Grade Level:</label>
+      <select id="grade" name="grade">
+        <option value="">Any</option>
+        <option value="9">9th Grade</option>
+        <option value="10">10th Grade</option>
+        <option value="11">11th Grade</option>
+        <option value="12">12th Grade</option>
+      </select>
+
+      <label for="availability">Availability:</label>
+      <select id="availability" name="availability">
+        <option value="">Any</option>
+        <option value="morning">Morning</option>
+        <option value="afternoon">Afternoon</option>
+        <option value="evening">Evening</option>
+      </select>
+
+      <button type="submit">Search</button>
+    </form>
+
+    <section class="tutor-list">
+      <h3>Sample Tutors</h3>
+
+      <div class="tutor-card">
+        <h4>Alex M.</h4>
+        <p><strong>Subject:</strong> Algebra I</p>
+        <p><strong>Grade:</strong> 9-10</p>
+        <p><strong>Availability:</strong> Afternoons</p>
+        <p><strong>Contact:</strong> alexm@example.com</p>
+      </div>
+
+      <div class="tutor-card">
+        <h4>Sara L.</h4>
+        <p><strong>Subject:</strong> Biology</p>
+        <p><strong>Grade:</strong> 10-12</p>
+        <p><strong>Availability:</strong> Evenings</p>
+        <p><strong>Contact:</strong> saral@example.com</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 TutorLink. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
