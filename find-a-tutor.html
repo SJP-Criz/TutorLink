@@ -2,17 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Find a Tutor - TutorLink</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    <h1>TutorLink</h1>
+    <div class="logo">
+      <h1>TutorLink</h1>
+    </div>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="find-a-tutor.html" class="active">Find a Tutor</a></li>
+        <li><a href="find-a-tutor.html">Find a Tutor</a></li>
         <li><a href="#">Subjects</a></li>
         <li><a href="#">Become a Tutor</a></li>
         <li><a href="#">Resources</a></li>
@@ -22,10 +24,14 @@
     </nav>
   </header>
 
-  <main>
+  <!-- Green Hero Section -->
+  <section class="hero">
     <h2>Find a Tutor</h2>
-    <p>Use the form below to search for a tutor by subject, grade level, or availability.</p>
+    <p>Use the form below to search by subject, grade level, or availability.</p>
+  </section>
 
+  <!-- Search Form and Tutor Cards -->
+  <main class="search-section">
     <form class="search-form">
       <label for="subject">Subject:</label>
       <input type="text" id="subject" name="subject" placeholder="e.g. Math, History" />
