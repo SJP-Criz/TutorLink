@@ -285,3 +285,38 @@ footer {
 .resource-list a:hover {
   text-decoration: underline;
 }
+
+/* Become a Tutor Page */
+.tutor-apply-section {
+  max-width: 750px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.tutor-apply-section h3 {
+  margin-top: 20px;
+  color: #2ecc71;
+}
+
+.tutor-apply-section ul {
+  margin: 10px 0 20px 20px;
+  list-style-type: disc;
+}
+
+.tutor-apply-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.thumbnail-image {
+  width: 120px;
+  height: auto;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
